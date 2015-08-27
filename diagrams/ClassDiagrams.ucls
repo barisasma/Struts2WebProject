@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="com.action.ListAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/ListAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="899" y="2111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.opensymphony.xwork2.ActionSupport" project="StrutsWebsite" 
+    file="C:/Users/Baris/workspace/StrutsWebsite/WebContent/WEB-INF/lib/xwork-2.1.2.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="855" width="279" x="1297" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.action.BasketAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/BasketAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="618" y="2532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.action.LogAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/LogAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="205" x="1677" y="1755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.action.NavigationAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/NavigationAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="230" x="1272" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.action.NewPhoneAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/NewPhoneAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="783" width="164" x="783" y="932"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.action.OrderAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/OrderAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="205" x="987" y="932"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.action.RegisterAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/RegisterAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="161" x="2073" y="932"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.action.SearchAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/SearchAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="207" x="1025" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.action.UpdatePhoneAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/UpdatePhoneAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="783" width="144" x="338" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.action.UpdateProfileAction" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/action/UpdateProfileAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="149" x="1903" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.domain.BasketDao" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/BasketDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="237" x="1542" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.domain.BasketItem" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/BasketItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="170" x="1420" y="3077"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.domain.CellPhone" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/CellPhone.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1141" y="3975"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.domain.LoginProcess" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/LoginProcess.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="212" x="1630" y="3077"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.domain.NewPhoneDao" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/NewPhoneDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="156" x="783" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.domain.Order.OrderDetail" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/Order.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="196" y="3169"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.domain.Order" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/Order.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="190" y="2266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.domain.OrderDao" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/OrderDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="216" x="84" y="1755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.domain.RegisterAccountDao" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/RegisterAccountDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="244" x="1990" y="3077"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.domain.SearchDao" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/SearchDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="206" x="883" y="3077"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.domain.UpdateDao" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/UpdateDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="402" x="420" y="3077"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.domain.User" project="StrutsWebsite" 
+    file="/StrutsWebsite/src/com/domain/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="268" x="1630" y="3468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="26">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="27" name="myPhone">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <bendpoint x="1851" y="2074"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="30">    
+    <bendpoint x="1161" y="3077"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="31" name="cellphone">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="32" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <nesting id="35">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="36">    
+    <bendpoint x="347" y="3077"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="37" name="cp">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="38" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="39">    
+    <bendpoint x="32" y="2074"/>    
+    <bendpoint x="32" y="3077"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="41">    
+    <bendpoint x="544" y="1755"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="42" name="orders">        
+        <position height="0" width="0" x="-1" y="-1"/>      
+      </attribute>      
+      <multiplicity id="43" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-1" y="-1"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="45" name="cp">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="46" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="49">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="50" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="54">    
+    <bendpoint x="1496" y="932"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="55">    
+    <bendpoint x="389" y="3077"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="56" name="cellphone">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="57" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="59">    
+    <bendpoint x="1872" y="2074"/>    
+    <bendpoint x="1872" y="3077"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="60" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="61" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="62">    
+    <bendpoint x="1222" y="1755"/>    
+    <bendpoint x="1222" y="932"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="63">    
+    <bendpoint x="852" y="3077"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="64" name="cellphones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="65" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <bendpoint x="1224" y="3077"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="67" name="dummyPhoneList">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="68" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="70">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="71">    
+    <bendpoint x="1893" y="3077"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="72" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <bendpoint x="1203" y="3077"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="75" name="cellphones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="76" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <bendpoint x="1140" y="3077"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="78" name="initialPhones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="79" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="80">    
+    <bendpoint x="1264" y="1755"/>    
+    <bendpoint x="1264" y="932"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="82">    
+    <bendpoint x="53" y="2074"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="84">    
+    <bendpoint x="1119" y="3077"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="85" name="users">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="86" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <generalization id="88">    
+    <bendpoint x="1306" y="1755"/>    
+    <bendpoint x="1306" y="932"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="89">    
+    <bendpoint x="368" y="3077"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="90" name="cellphones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="92">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="93">    
+    <bendpoint x="1285" y="1755"/>    
+    <bendpoint x="1809" y="2074"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="94" name="myBasket">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="95" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="97" name="Mybasket">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="98" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <generalization id="100">    
+    <bendpoint x="1327" y="1755"/>    
+    <bendpoint x="1327" y="932"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="103">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="105">    
+    <bendpoint x="1245" y="3077"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="106">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="107" name="orderdetails">        
+        <position height="0" width="0" x="31" y="7"/>      
+      </attribute>      
+      <multiplicity id="108" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="31" y="7"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="109">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <generalization id="110">    
+    <bendpoint x="1243" y="1755"/>    
+    <bendpoint x="1243" y="932"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <generalization id="112">    
+    <bendpoint x="1912" y="1755"/>    
+    <bendpoint x="1912" y="932"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="113">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="114" name="users">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="115" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="116">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="117">    
+    <bendpoint x="1182" y="3077"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="118" name="cellphones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="119" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="121" name="cellphones">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="122" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

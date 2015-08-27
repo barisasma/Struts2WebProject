@@ -1,0 +1,135 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+   <constant name="struts.devMode" value="true" />
+   <package name="CellPhoneSell" extends="struts-default">
+   
+   	   <action name="welcome" class="com.action.NavigationAction" method="goIndex">
+   			<result name="success">/index.jsp</result>
+      </action>
+   
+      <action name="query" class="com.action.SearchAction" method="execute">
+         <result name="success">/searchResults.jsp</result>
+         <result name="error">/error.jsp</result>
+      </action>
+      
+      
+      <action name="registerin" class="com.action.NavigationAction" method="goToHome">
+         <result name="success" type="redirect">/register.jsp</result>
+       </action>
+      
+       <action name="gotoHome" class="com.action.NavigationAction" method="goregisterpage">
+         <result name="success" type="redirectAction">welcome</result>
+       </action>
+       
+       <action name="goorder" class="com.action.OrderAction" method="gotoOrderPage">
+         <result name="success">/completeorder.jsp</result>
+       </action>
+       
+       <action name="completeorder" class="com.action.OrderAction" method="completeOrder">
+         <result name="success" type="redirectAction">myorders</result>
+         <result name="input">/index.jsp </result>
+       </action>
+ 
+      <action name="createaccount" class="com.action.RegisterAction" method="save">
+         <result name="success">/accountsuccessful.jsp</result>
+         <result name="input" >/register.jsp</result>
+         <result name="error">/register.jsp</result>
+       </action>
+      
+      <action name="login" 
+         class="com.action.LogAction" method="execute">
+         <result name="input" type="redirectAction">welcome</result>
+         <result name="success" type="redirectAction">welcome</result>
+         <result name="error">/error.jsp</result>
+      </action>
+      
+      <action name="logout" class="com.action.LogAction" method="logout">  
+		<result name="success" type="redirectAction">welcome</result>  
+	  </action>  
+	  
+	  <action name="newphone" class="com.action.NewPhoneAction" method="execute">
+	  	<result name="input">/newphone.jsp</result>
+	  	<result name="success">/newphone.jsp</result>
+	  	<result name="error">/error.jsp</result>
+	  </action>
+        
+      <action name="updatephone" class="com.action.UpdatePhoneAction" method="execute">
+	  	<result name="success">/updatephone.jsp</result>
+	  </action> 
+	  
+	    <action name="updateprofile" class="com.action.UpdateProfileAction" method="execute">
+	  		<result name="success">/profile.jsp</result>
+	  		<result name="error">/error.jsp</result>
+	  	</action> 
+	  	
+	  	<action name="saveprofile" class="com.action.UpdateProfileAction" method="save">
+	  		<result name="input">/error.jsp</result>
+	  		<result name="success" >/profile.jsp</result>
+	  		<result name="error">/error.jsp</result>
+	  	</action>
+	  
+	  <action name="addchart" class="com.action.BasketAction" method="addtoBasket">
+	  		<result name="success" type="redirectAction"> showBasket</result>
+	  		<result name="detail" > /phonedetail.jsp</result>
+	   </action> 
+	   
+	   <action name="showBasket" class="com.action.BasketAction" method="showBasket">
+	  		<result name="success">/mybasket.jsp</result>
+	  </action> 
+	  
+	   <action name="remove" class="com.action.BasketAction" method="removeFromBasket">
+	  		<result name="success" type="redirectAction">showBasket</result>
+	   </action> 
+	  
+	  <action name="savephone" class="com.action.UpdatePhoneAction" method="save">
+	  	<result name="success">/updatephone.jsp</result>
+	  </action> 
+	  
+	   <action name="updateQuantity" class="com.action.BasketAction" method="updateItemQuantity">
+	  		<result name="success" type="redirectAction">showBasket</result>
+	   </action> 
+	  
+	   <action name="phoneDetail" class="com.action.SearchAction" method="phoneDetail">
+	  		<result name="success">/phonedetail.jsp</result>
+	   </action> 
+	   
+	    <action name="phonelist" class="com.action.ListAction" method="goPhoneList">
+	  		<result name="success">/phonelist.jsp</result>
+	   	</action> 
+	   	
+	   	<action name="phoneactivity" class="com.action.ListAction" method="changePhoneActivity">
+		  	<result name="success" type="redirectAction">phonelist</result>
+		  	<result name="error">/error.jsp</result>
+	   	</action> 
+	   	
+	   	<action name = "userlist" class="com.action.ListAction" method="goUserList">
+	   		<result name="success">/userlist.jsp</result>
+	   	</action>
+	   	
+	   	<action name="useractivity" class="com.action.ListAction" method="changeUserActivity">
+		  	<result name="success" type="redirectAction">userlist</result>
+		  	<result name="error">/error.jsp</result>
+	   	</action> 
+	   	
+	   	<action name="gonewphone" class="com.action.NewPhoneAction" method="goNewPhonePage">
+	   		<result name="input">/newphone.jsp</result>
+		  	<result name="success">/newphone.jsp</result>
+		  	<result name="error">/error.jsp</result>
+	   	</action>
+	   	
+	   	<action name="myorders" class="com.action.OrderAction" method="myOrders">
+	   		<result name="success">/myorders.jsp</result>
+	   	</action>
+	   	
+	   	<action name="orderdetails" class="com.action.OrderAction" method="myOrderDetail">
+	   		<result name="success">/orderdetails.jsp</result>
+	   	</action>
+	   	
+	   	
+	     
+   </package>
+
+</struts>
